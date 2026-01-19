@@ -111,7 +111,7 @@ st.markdown("""
 # ─── Sidebar ────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("MR Dashboard")
-    st.caption("Ahmedabad • 2026")
+    st.caption("UserEx • 2026")
 
     page = st.selectbox("Select Section", [
         "Overview",
@@ -552,4 +552,4 @@ elif page == "Generate Schedule":
         st.download_button("Download CSV", df.to_csv(index=False), f"schedule_{selected_mr}.csv")
 
 st.markdown("---")
-st.caption("Dashboard • Ahmedabad • January 2026")
+st.caption("UserEx • Ahmedabad • January 2026")
