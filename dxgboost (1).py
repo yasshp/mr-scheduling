@@ -419,7 +419,7 @@ def generate_schedule(selected_mr_id):
 
 # ─── Dashboard ──────────────────────────────────────────────────────────
 st.title("Medical Representative Dashboard")
-st.markdown(f"**Ahmedabad •**")
+st.markdown(f"**UserEx - Ahmedabad**")
 
 if page == "Overview":
     st.subheader("Overview")
